@@ -16,6 +16,10 @@ import java.util.Map.Entry;
  */
 public class NewsPaperHashTags {
 
+	/**
+	 * @param input
+	 * @return
+	 */
 	private List<Object> findWordLength(String input) {
 		List<Object> list = new ArrayList<Object>();
 		String output = "";
@@ -30,6 +34,10 @@ public class NewsPaperHashTags {
 		return list;
 	}
 
+	/**
+	 * @param input
+	 * @return
+	 */
 	private List<String> getHashTags(String input) {
 		Map<String, Integer> hashTagMap = new LinkedHashMap<>();
 		Map<String, Integer> sortedHashTagMap = new LinkedHashMap<>();
