@@ -2,6 +2,10 @@ package com.goodworklabs.solution;
 
 public class DescendantPalindrome {
 
+	/**
+	 * @param input
+	 * @return
+	 */
 	public String reduceToPalidrome(String input) {
 		String output = "";
 		for (int i = 0; i < input.length() - 1; i++) {
